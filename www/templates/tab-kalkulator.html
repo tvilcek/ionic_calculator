@@ -1,0 +1,22 @@
+<ion-view view-title="Kalkulator - Ionic framework">
+  <ion-content class="padding">
+    
+
+<!-- <h2>Prvi način: automatski dobiven broj nakon unošenja (bez gumba).</h2>
+
+
+<p>Unesite prvi broj:</p> <input type="number" ng-model="firstNum">
+<p>Unesite drugi broj:</p> <input type="number" ng-model="secondNum">
+<h3>Zbroj:</h3> <h3 ng-bind="firstNum + secondNum"></h3>
+<br />
+
+<h2>Ili drugi način. Nakon pritiska gumba.</h2> -->
+
+ <p> Unesite prvi broj: </p><input type="number" ng-model="num1"><br/>
+  <p> Unesite drugi broj:  </p><input type="number" ng-model="num2">
+  <input type="button" ng-click="add(num1,num2)" value="Izračunaj"><br/>
+  <h3>Zbroj: {{result}}</h3> 
+
+
+  </ion-content>
+</ion-view>
